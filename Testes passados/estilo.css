@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px
+}
+.link{
+    color: #0f0;
+    font-size: 30;
+}
+.link:hover{
+    color: #f00;
+}
+.link:visited {
+    color: pink;
+}

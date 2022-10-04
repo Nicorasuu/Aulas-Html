@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    font-size: 18px;
+}
+h2{
+    font-family: 'Roboto:ital,wght@0,300;1,900';
+}
+p{
+    color: #00f;
+    font-size: 30px; 
+    font-family: 'Ms Madi', cursive;
+}
+

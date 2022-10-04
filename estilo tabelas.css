@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    font-size: 18px;
+}
+h1{
+    font-family: 'Roboto:ital,wght@0,300;1,900';
+}
+table{
+    width: 600px;
+}
+th{
+    font-weight: normal;
+}
+td, th{
+    padding: 10px;
+    text-align: left;
+}
+table thead{
+    background-color: #ccc;
+}
+tbody tr :hover{
+    background-color: #eee;
+}
+tbody td{
+    border-bottom: 1px solid #ccc;
+}
+tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
