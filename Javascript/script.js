@@ -83,3 +83,36 @@ HTML:
 
 // typeof idade;  typeof ---; exibe qual o tipo da varaivel no codigo
 
+/* getAttributte setAttribute:
+
+function trocarImagem(filename, animalname){
+    document.querySelector('.imagem').setAttribute('src', 'images/'+filename);
+    document.querySelector('.imagem').setAttribute('data-animal', animalname); 
+}
+
+function pegarAnimal(){
+    let animal= document.querySelector('.imagem').getAttribute('data-animal');
+    alert("O animal é: "+animal);
+}
+HTML:
+
+    <img src="images/cachorro.jpg" data-animal="Cachorro" class="imagem" /> <br/>
+
+    <button onclick="trocarImagem('cachorro.jpg', 'Cachorro')">Cachorro</button>
+    <button onclick="trocarImagem('gato.jpg', 'Gato')">Gato</button>
+
+    <button onclick="pegarAnimal()">Qual é o animal?</button>
+
+*/
+
+/* comandos para calcular dimensoes:
+
+document.querySelector('.texto');
+document.querySelector('.texto').offsetHeight;
+document.querySelector('.texto').offsetWidth;
+document.querySelector('.texto').clientHeight;
+document.querySelector('.texto').clientWidth;
+document.querySelector('.texto').scrollHeight;
+document.querySelector('.texto').scrollWidth; 
+*/
+
